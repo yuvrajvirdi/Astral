@@ -1,6 +1,6 @@
 # Astral 🌌
 
-* Work in progress at a custom compiler
+* Work in progress at a custom language
 ## Planning to add:
 * loops
 * conditionals
