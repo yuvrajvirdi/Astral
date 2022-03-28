@@ -31,7 +31,7 @@ class Execute:
         elif node[0] == 'mul':
             return self.parseTree(node[1]) * self.parseTree(node[2])
         elif node[0] == 'div':
-            return self.parseTree(node[1]) / self.parseTree(node[2])
+            return self.parseTree(node[1]) // self.parseTree(node[2])
         if node[0] == 'var_assign':
             self.env[node[1]] = self.parseTree(node[2])
             return node[1]
